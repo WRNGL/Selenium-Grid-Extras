@@ -50,7 +50,7 @@ public class KillAllIETest {
     private KillAllIE task;
     private String expectedIEDriverCommand = "taskkill -F -T -IM iedriver*";
     private String expectedIECommand = "taskkill -F -T -IM iexplore*";
-    private String expectedHistoryCommand = "RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351";
+    private String expectedHistoryCommand = "";
 
     @Before
     public void setUp() throws Exception {

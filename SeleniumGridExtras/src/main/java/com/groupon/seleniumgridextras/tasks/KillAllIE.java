@@ -127,7 +127,7 @@ public class KillAllIE extends KillAllByName {
     }
 
     public String getClearHistoryCommand() {
-        return "RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351";
+        return "";
     }
 
     @Override
